@@ -21,9 +21,9 @@ const HorrorMovie = (props) => {
       });
   };
 
-  useEffect(() => {
-    getMovie(props.match.params.id);
-  }, [props.match.params.id]);
+  // useEffect(() => {
+  //   getMovie(props.match.params.id);
+  // }, [props.match.params.id]);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
