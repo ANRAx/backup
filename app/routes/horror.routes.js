@@ -1,17 +1,3 @@
-// module.exports = (app) => {
-//   const horrorMovies = require('../controllers/horror.controller');
-//   var router = require('express').Router();
-
-//   router.post('/', horrorMovies.create);
-//   router.get('/', horrorMovies.findAll);
-//   router.get('/:id', horrorMovies.findOne);
-//   router.put('/:id', horrorMovies.update);
-//   router.delete('/:id', horrorMovies.delete);
-//   router.delete('/', horrorMovies.deleteAll);
-
-//   app.use('/api/horrorMovies', router);
-// };
-
 module.exports = (app) => {
   const horrorMovies = require('../controllers/horror.controller');
 

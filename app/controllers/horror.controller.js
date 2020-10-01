@@ -1,4 +1,4 @@
-const db = require('../models').default;
+const db = require('../models');
 
 const { HorrorMovies } = db;
 
