@@ -19,13 +19,13 @@ function App() {
   return (
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <a href="/horrorMovies" className="navbar-brand">
+        <a href="/" className="navbar-brand text-center">
           What I've Seen
         </a>
-        <div className="navbar-nav mr-auto">
+        <div className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link to={'/add'} className="nav-link">
-              Add
+            <Link to={'/add'} className="nav-link text-info">
+              Add Movie
             </Link>
           </li>
         </div>

@@ -1,6 +1,5 @@
 module.exports = (app) => {
   const horrorMovies = require('../controllers/horror.controller');
-
   const router = require('express').Router();
 
   // Create a new movie
