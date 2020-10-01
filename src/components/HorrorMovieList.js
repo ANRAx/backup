@@ -80,7 +80,7 @@ const HorrorMovieList = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 text-center">
         <h4>Horror Movies List</h4>
 
         <ul className="list-group">
@@ -97,7 +97,7 @@ const HorrorMovieList = () => {
         </ul>
 
         <button className="m-3 btn btn-sm btn-danger" onClick={removeAllMovies}>
-          Delete
+          Delete All
         </button>
       </div>
       <div className="col-md-6">

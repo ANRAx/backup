@@ -21,9 +21,9 @@ const HorrorMovie = (props) => {
       });
   };
 
-  // useEffect(() => {
-  //   getMovie(props.match.params.id);
-  // }, [props.match.params.id]);
+  useEffect(() => {
+    getMovie(props.match.params.id);
+  }, [props.match.params.id]);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -46,6 +46,7 @@ const HorrorMovie = (props) => {
     HorrorMovieDataService.remove(currentMovie.id)
       .then((response) => {
         console.log(response.data);
+        console.log(currentMovie.id);
         props.history.push('/horrorMovies');
       })
       .catch((err) => {
